@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key ="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"
+openai.api_key ="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 def talk(messages, model="gpt-3.5-turbo", temperature=0):
     response = openai.ChatCompletion.create(
